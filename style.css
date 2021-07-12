@@ -1,24 +1,53 @@
+
+
+
 .bg{
-    background-image: url(./icons/w9.jpg);
-    
+    background-image: url(./icons/london.jpg);
+    background-size: cover;
+     background-position: center center;
+    /* background-repeat: no-repeat;  */
+    background-attachment: fixed;
 }
+
 
 .op1{
     text-align: center;
 }
 
+.inpt{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    
+ }
+/* input[type=text]{
+     transition: width 0.4s ease-in-out; 
+     color: transparent; 
+
+} 
+ input[type=text]:focus{
+    width: 50%;
+}  */
 .temp{
     font-size: 60px;
+    color: white;
 }
 
 .lab1{
+    color: white;
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     font-family: 'DM Serif Text', serif;
+}
+
+.btn1{
+    border: none;
 }
 .btn2{
     margin-left: 10px;
 }
+
+
 
 
 
@@ -33,17 +62,14 @@
 
 .cd1{
     
-    width: 400px;
-    height: 300px;
-    border: none;
-    background: none;
+    
     
     text-align: center;
 }
 .cd1 img{
-    margin-left: 90px;
-    width: 200px;
-    height: 200px;
+    
+    width: 150px;
+    height: 150px;
 }
 
 /* .cd2{
@@ -61,17 +87,33 @@
     text-align: center;
 }
 .div4{
-    margin-top: 150px;
+    margin-top: 100px;
+    text-align: center;
 }
 
 .div5{
+    margin-top: 100px;
     text-align: center;
 }
 
 .div6{
-    text-align: end;
+    margin-top: 100px;
+    text-align: center;
 }
 
 .temphead{
     font-size: 100px;
+    color: rgba(0, 0, 0, 0.89)
+}
+
+.nameTag{
+    color: white;
+}
+
+.subname{
+    color: whitesmoke;
+}
+
+.subname1{
+    color: black;
 }
