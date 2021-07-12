@@ -1,0 +1,77 @@
+.bg{
+    background-image: url(./icons/w9.jpg);
+    
+}
+
+.op1{
+    text-align: center;
+}
+
+.temp{
+    font-size: 60px;
+}
+
+.lab1{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'DM Serif Text', serif;
+}
+.btn2{
+    margin-left: 10px;
+}
+
+
+
+.cd{
+    background: none;
+    border: none;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cd1{
+    
+    width: 400px;
+    height: 300px;
+    border: none;
+    background: none;
+    
+    text-align: center;
+}
+.cd1 img{
+    margin-left: 90px;
+    width: 200px;
+    height: 200px;
+}
+
+/* .cd2{
+    margin-top: 70px;
+    border: none;
+    width: 850px;
+    background: none;
+    border: none;
+} */
+
+.div1{
+    text-align: center;
+}
+.div3{
+    text-align: center;
+}
+.div4{
+    margin-top: 150px;
+}
+
+.div5{
+    text-align: center;
+}
+
+.div6{
+    text-align: end;
+}
+
+.temphead{
+    font-size: 100px;
+}

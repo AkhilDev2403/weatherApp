@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather App</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Awsome fonts-->
+    <script src="https://kit.fontawesome.com/476047b5bb.js" crossorigin="anonymous"></script>
+
+
+    <script src="weatherScript.js"></script>
+
+    <link rel="stylesheet" href="weatherStyle.css">
+</head>
+
+<body class="bg">
+    
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-lg-12 col-sm-6 mt-5 op1">
+                <label for="" class="lab1"> City Name
+                    <input type="text" name="" id="srch" size="30px" placeholder="enter city here" style="height: 40px; border-radius: 5px; border: none;">
+                </label>
+                <button onclick="fetchWeather()" class="btn btn-outline-light btn1">
+                    Search
+                </button>
+                <button class="btn btn-danger btn-close btn2" id="" onclick="reset()">
+                    
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+                <div class="col-lg-12 col-sm-6" id="result">
+
+                </div>
+            
+        </div>
+        
+
+        <!-- <div class="row mt-3">
+            <div class="col-lg-4 col-sm-4">
+                <h2> City - <b>${city_name}</b></h2>
+                <h4>Time Zone <b>${time_zone}</b></h4>
+            </div>
+            <div class="col-lg-4 col-sm-4 card cd1">
+                <img src="./icons/01d.png" class="card-img-top" alt="...">
+                <h1 class="temp">${weather}</h1>
+                <h1>${weather_description}</h1>
+            </div>
+            <div class="col-lg-4 col-sm-4 div3">
+                <h1 class="temphead"> <b>${temparature}</b></h1>
+                <h5>Pressure :<b>${prssr}</b></h5>
+                <h5>Wind Speed :<b>${wind_speed}</b></h5>
+            </div>
+
+        </div>
+
+
+        <div class="row div4">
+            <div class="col-lg-4 col-sm-4">
+                <h5>Sunrise :<b>${sun_rise}</b></h5>
+                <h5>Sundown :<b>${sun_down}</b></h5>
+            </div>
+            <div class="col-lg-4 col-sm-4 div5">
+                <h4>Humidity :<b>${humidity}</b></h4>
+                <h4>Sea Level :<b>${sea_lvl}</b></h4>
+                <h4>Ground Level :<b>${grnd_lvl}</b></h4>
+            </div>
+            <div class="col-lg-4 col-sm-4 div6">
+                <h6>lon: <b> ${longitude}</b></h6>
+                <h6>let: <b>${latittude}</b></h6>
+            </div>
+        </div> -->
+
+
+        
+
+    </div>
+    </div>
+
+
+    </div>
+</body>
+
+</html>
